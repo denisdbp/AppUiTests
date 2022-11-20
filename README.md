@@ -5,8 +5,8 @@ App feito para estudo de testes de UI e de Snapshot
 Utilizado para testes de Snapshot a framework SnapshotTesting que esta em https://github.com/pointfreeco/swift-snapshot-testing
 Ela foi instalada via SPM (Swift Package Manager)
 
-O app foi feito em ViewCode, onde tem apenas 2 telas, uma simulando um Login e a outra e Home.
-Quando o teste de UI é executado o mesmo executa o App
+O app foi feito em ViewCode, onde tem apenas 2 telas, uma simulando um Login e a outra a Home.
+Quando o teste de UI é executado o mesmo executa o App.
 Entra na HomeViewController, da um tap no emailTextField, digita um texto e verifica se ele existe.
 E da um tap em senhaTextField, digita um texto e verifica se ele existe.
 Depois da um tap no botão Acessar e verificar se existe o texto Ola, mundo na tela HomeViewController.
