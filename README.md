@@ -3,7 +3,7 @@
 App feito para estudo de testes de UI e de Snapshot
 
 Utilizado para testes de Snapshot a framework SnapshotTesting que esta em https://github.com/pointfreeco/swift-snapshot-testing
-Ela foi instalada via SPM (Swift Package Manager)
+Ela foi instalada via SPM (Swift Package Manager).
 
 O app foi feito em ViewCode, onde tem apenas 2 telas, uma simulando um Login e a outra a Home.
 Quando o teste de UI é executado o mesmo executa o App.
