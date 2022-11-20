@@ -14,11 +14,11 @@ Depois da um tap no botão Acessar e verificar se existe o texto Ola, mundo na t
 Referente ao teste de Snapshot para ele poder ser executado deve apagar a imagem de referencia na pasta 
 AppSnapshotTestingUITests/_Snapshots_/AppSnapshotTestingUITests/testSnapshot.1.png.
 
-Depois abrir a classe AppSnapshotTestingUITests e executar o teste para ele dar um erro e assim criar uma novo referencia da tela.
+Depois abrir a classe AppSnapshotTestingUITests e executar o teste para ele dar um erro e assim criar uma nova referencia da tela na mesma pasta, esse erro é normal pois ainda não existe uma referencia da tela, se executar o teste novamente o erro não ira acontecer.
 Depois disso se houver qualquer alteraçao na UI e executar o teste novamente um erro ira acontecer, pois a nova imagem não está em conformidade com a 
 referencia.
 
-Para acompanhar onde deu o erro, basta ir na aba Show the Report navigator do lado esquerdo, clicar em Test e podera ver o que foi alterado,
+Para acompanhar onde deu o erro, basta ir na aba Show the Report navigator do lado esquerdo da tela, clicar em Test e podera ver o que foi alterado,
 pois ele dara a imagem de referencia, a que foi alterada e a diferença.
 
 Definindo o record:True depois de iphoneX poderá criar um nova referencia e se quiser criar uma nova referencia para mais testes 
